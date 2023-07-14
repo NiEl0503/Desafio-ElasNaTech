@@ -1,0 +1,23 @@
+{
+  "name": "desafio-elasnatech",
+  "version": "1.0.0",
+  "description": "practica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiEl0503/Desafio-ElasNaTech.git"
+  },
+  "keywords": [
+    "css",
+    "html"
+  ],
+  "author": "Ninoska Contreras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiEl0503/Desafio-ElasNaTech/issues"
+  },
+  "homepage": "https://github.com/NiEl0503/Desafio-ElasNaTech#readme"
+}
