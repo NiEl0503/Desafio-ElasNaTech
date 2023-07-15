@@ -102,7 +102,6 @@ details[open] > p {
 details p {
     display: none;
 }
-
 p {
     text-align: center;
     font-size: 1em;
@@ -148,8 +147,9 @@ footer {
 @media only screen and (max-width: 480px) {
     .header-logo {
         font-size: 1.5em;
+        margin-right: 50px;
     }
-
+   
     ul li {
         font-size: 1.2em;
     }
@@ -168,13 +168,5 @@ footer {
 
     footer {
         font-size: 0.8em;
-    }
-}
-@media only screen and (min-width: 320px) {
-    .header-logo {
-        font-size: 1.1em;
-    }
-    .header-nav{
-        font-size: 0.9em;
     }
 }
