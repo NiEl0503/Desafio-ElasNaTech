@@ -1,0 +1,180 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(103, 126, 243);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(193, 185, 185);
+    background: rgb(68, 93, 218);
+}
+
+.header-logo {
+    color: rgb(193, 185, 185);
+    font-size: 5em;
+    animation: moveTitle 2s infinite alternate;
+}
+
+@keyframes moveTitle {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+.header-nav {
+    margin-top: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-right: 30px;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(193, 185, 185);
+}
+
+a:hover {
+    padding: 10px 20px;
+    background-color: rgb(103, 126, 243);
+    border-radius: 5px;
+}
+
+.content {
+    padding-top: 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: rgb(193, 185, 185);
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(193, 185, 185);
+}
+details{
+    color: blue;
+    
+    margin-bottom: 1em;
+    padding: .5em;
+}
+
+details {
+    cursor: pointer;
+}
+
+details[open]{
+    background: linear-gradient(90deg, rgba(68, 93, 218, 1) 35%, rgba(18, 43, 228, 1) 100%);
+    color:rgb(193, 185, 185);
+}
+
+details[open] > p {
+    display: block;
+}
+
+details p {
+    display: none;
+}
+
+p {
+    text-align: center;
+    font-size: 1em;
+    color: rgb(193, 185, 185);
+}
+
+footer {
+    border: 2px solid rgb(193, 185, 185);
+    background: rgb(68, 93, 218);
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(193, 185, 185);
+    font-size: 1.5em;
+}
+@media only screen and (max-width: 768px) {
+    .header-logo {
+        font-size: 3.5em;
+    }
+
+    ul li {
+        font-size: 1.5em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    footer {
+        font-size: 1em;
+        margin-top: 280px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .header-logo {
+        font-size: 1.5em;
+    }
+
+    ul li {
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
+@media only screen and (min-width: 320px) {
+    .header-logo {
+        font-size: 1.1em;
+    }
+    .header-nav{
+        font-size: 0.9em;
+    }
+}
