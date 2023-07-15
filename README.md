@@ -23,7 +23,7 @@ RetroToons é uma página criada para amantes de desenhos antigos como eu 😂
 
 Aqui você pode se informar e conhecer algumas curiosidades dos seus desenhos favoritos!
 
-[Gh-pages](https://niel0503.github.io/Desafio-ElasNaTech/)
+[Gh-pages](https://github.com/NiEl0503/Desafio-ElasNaTech/deployments/activity_log?environment=github-pages)
 
 ## Desenvolvedora
 
